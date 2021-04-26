@@ -18,7 +18,7 @@ HTML, CSS, Javascript
 
 ### Option 1: Continue to @import and continue using live sass complier or node-sass.
 
-### Option 2: Compling scss into css using [dart sass](https://www.npmjs.com/package/sass)
+### Option 2: Compile scss into css using [dart sass](https://www.npmjs.com/package/sass)
 
 [github](https://github.com/davidchanho/scss-setup-tutorials/tree/main/2-compile-scss)
 
