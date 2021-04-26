@@ -1,0 +1,17 @@
+{
+  "name": "5-postcss-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-loader": "^5.2.0",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

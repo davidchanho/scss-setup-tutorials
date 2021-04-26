@@ -1,10 +1,18 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require("path");
+
 module.exports = {
   module: {
     rules: [
       {
-        test: /\.(scss|css)$/,
+        test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "dist", "index.html"),
+    }),
+  ],
 };
