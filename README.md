@@ -66,9 +66,11 @@ Hook css to html
 
 index.html
 
+```
 <head>
  <link rel="stylesheet" href="styles/styles.css">
 </head>
+```
 
 ### Option 3: Gulp Setup
 
